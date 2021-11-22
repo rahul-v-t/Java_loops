@@ -6,6 +6,9 @@ public class wloop {
 		{
 			System.out.println("Hello" + value);
 			value = value +1;
+        }
+        for(int i=0; i<5; i++) {
+			System.out.printf("The Number is :%d\n", i);
 		}
 	}
 }
